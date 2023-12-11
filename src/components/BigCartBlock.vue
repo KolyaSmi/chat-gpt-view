@@ -1,7 +1,7 @@
 <template>
     <div class="container big-card">
-        <!-- <img src="../assets/Ellipse 40.png" class="big-cart-img-1"> -->
-        <!-- <img src="../assets/Ellipse 39.png" class="big-cart-img-2"> -->
+        <img src="../assets/Ellipse 40.png" class="big-cart-img-1">
+        <img src="../assets/Ellipse 39.png" class="big-cart-img-2">
         <div class="big-card__title">
             <h3>
                 What is GPT-3
@@ -64,6 +64,7 @@ export default {
     background-color: #042C54;
     margin: 60px auto;
     padding: 40px;
+    position: relative;
 
     .big-cart-img-1 {
         position: absolute;

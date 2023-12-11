@@ -38,6 +38,8 @@ export default {
     align-items: center;
     margin-top: 50px;
     margin-bottom: 30px;
+    position: relative;
+    z-index: 5;
 
     // margin-left: 10px;
 

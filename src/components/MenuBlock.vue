@@ -50,7 +50,7 @@ export default {
     height: 100vh;
     background-color: #042c5452;
     backdrop-filter: blur(5px);
-    z-index: 3;
+    z-index: 10;
 
     &__inner {
         display: flex;

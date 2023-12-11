@@ -23,6 +23,8 @@ export default {
     flex-direction: row;
     padding: 0 200px;
     align-items: center;
+    position: relative;
+    z-index: 2;
 
     &__inner {
         width: 100%;

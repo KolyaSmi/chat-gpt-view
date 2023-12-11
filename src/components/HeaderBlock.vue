@@ -1,6 +1,6 @@
 <template>
     <header class="container header">
-        <!-- <img alt="blur-1" src="../assets/blur-01.png" /> -->
+        <img alt="blur-1" src="../assets/blur-01.png" />
 
         <h1>GPT-4</h1>
         <nav>
@@ -18,7 +18,7 @@
                     <router-link to="/main">Кейсы</router-link>
                 </li>
                 <li>
-                    <router-link to="/main">Библиотека</router-link>
+                    <router-link to="/post">Библиотека</router-link>
                 </li>
             </ul>
         </nav>
@@ -67,17 +67,15 @@ export default {
     img {
         position: absolute;
         left: 0;
+        top: 0;
         z-index: 0;
+        @media (max-width: 790px) {
+            display: none;
+        }
     }
 
     h1 {
         z-index: 3;
-    }
-
-    .singIn {
-        background: none;
-        border: none;
-        padding: 0 20px;
     }
 
     nav {

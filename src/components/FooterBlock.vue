@@ -46,6 +46,8 @@ export default {
     padding-top: 100px;
     padding-bottom: 20px;
     background-color: #031B34;
+    position: relative;
+    z-index: 3;
 
     &__inner {
         display: flex;
