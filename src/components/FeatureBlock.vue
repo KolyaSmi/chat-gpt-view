@@ -80,6 +80,15 @@ export default {
                 // margin-right: 30px;
             }
 
+            h4::before {
+                background: linear-gradient(103deg, #ae67fa -13.86%, #f49867 99.55%), #fff;
+                content: "";
+                display: block;
+                height: 3px;
+                width: 38px;
+                margin-bottom: 10px;
+            }
+
             p {
                 max-width: 400px;
                 width: 100%;

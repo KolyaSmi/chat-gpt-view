@@ -28,13 +28,15 @@ export default {
         align-items: center;
         margin: 0 auto;
         padding-top: 50px;
-        max-width: 400px;
+        max-width: 620px;
         width: 100%;
+        text-align: center;
 
         h1 {
             background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
             background-clip: text;
             font-weight: 800;
+            font-size: 50px;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-bottom: 33px;

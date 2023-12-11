@@ -23,7 +23,7 @@
             </ul>
         </nav>
         <div class="btn_header">
-            <button>Войти</button>
+            <button class="singIn">Войти</button>
             <ButtonUI orange>Регистрация</ButtonUI>
         </div>
         <ButtonUI orange @click="toggleModel" class="btn__menu">Ещё</ButtonUI>
@@ -72,6 +72,12 @@ export default {
 
     h1 {
         z-index: 3;
+    }
+
+    .singIn {
+        background: none;
+        border: none;
+        padding: 0 20px;
     }
 
     nav {

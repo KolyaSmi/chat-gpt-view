@@ -85,6 +85,15 @@ export default {
         color: #FF8A71;
     }
 
+    h3::before {
+        background: linear-gradient(103deg, #ae67fa -13.86%, #f49867 99.55%), #fff;
+        content: "";
+        display: block;
+        height: 3px;
+        width: 38px;
+        margin-bottom: 10px;
+    }
+
     &__title {
         display: flex;
         justify-content: space-between;
@@ -92,7 +101,7 @@ export default {
         z-index: 3;
 
         h3 {
-            z-index: 3;
+            z-index: 1;
         }
 
         p {
@@ -141,17 +150,6 @@ export default {
 
                 h3 {
                     margin-bottom: 15px;
-                }
-
-                h3::before {
-                    background: linear-gradient(103deg, #ae67fa -13.86%, #f49867 99.55%), #fff;
-                    content: "";
-                    display: block;
-                    height: 3px;
-                    left: 0;
-                    position: absolute;
-                    top: 0;
-                    width: 38px;
                 }
             }
 

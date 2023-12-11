@@ -1,7 +1,7 @@
 <template>
     <div class="menu-block">
         <div class="menu-block__inner">
-            <button class="menu-block__close" @click="$emit('toggleModelFun')">Close</button>
+            <ButtonUI orange class="menu-block__close" @click="$emit('toggleModelFun')">Close</ButtonUI>
             <nav>
                 <ul>
                     <li>
@@ -22,16 +22,22 @@
                 </ul>
             </nav>
             <div class="btn_header">
-                <button>Войти</button>
-                <button>Регистрация</button>
+                <button class="singIn">Войти</button>
+                <ButtonUI orange>Регистрация</ButtonUI>
             </div>
         </div>
     </div>
 </template>
   
 <script>
+import ButtonUI from './ui/ButtonUI.vue';
+
 export default {
-    name: 'MenuBlock'
+    name: 'MenuBlock',
+
+    components: {
+        ButtonUI
+    }
 }
 </script>
   
@@ -56,6 +62,21 @@ export default {
         height: 100%;
         margin-left: auto;
         margin-right: 0;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            grid-gap: 10px;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 50px;
+            margin-bottom: 40px;
+        }
+
+        .btn_header {
+            justify-content: space-between;
+            margin: 0 auto;
+        }
     }
 
     &__close {

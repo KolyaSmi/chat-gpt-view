@@ -37,19 +37,21 @@ export default {
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 30px;
 
     // margin-left: 10px;
 
     &__inner {
         display: flex;
         flex-direction: column;
-        max-width: 500px;
+        max-width: 605px;
         width: 100%;
 
         h1 {
             background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
             background-clip: text;
             font-weight: 800;
+            font-size: 50px;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-bottom: 33px;
